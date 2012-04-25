@@ -17,8 +17,8 @@ gem 'rails_git_version' '~> 0.1'
 Bundle install the new gem, and decide where you want to access your
 description of what's currently live.
 
-If you want to use `http://example.com/_deployed` as I do you need to
-add set this up in your routes.rb file like so.
+If you want to use a path of `/_deployed` you can configure this by
+adding the following to your routes.rb file.
 
 ``` ruby
 Rails.application.routes.draw do
