@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 gemspec
 
-group :development do
+group :extras do
   gem 'guard-rspec'
   gem 'guard-cucumber'
 end
