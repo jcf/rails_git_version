@@ -1,4 +1,4 @@
-# Rails Git Version ![travis-ci](http://travis-ci.org/jcf/rails_git_version.png)
+# Rails Git Version [![Build Status](https://secure.travis-ci.org/jcf/rails_git_version.png)](http://travis-ci.org/jcf/rails_git_version)
 
 ## Description
 
