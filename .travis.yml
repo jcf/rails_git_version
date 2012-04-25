@@ -2,4 +2,3 @@ language: ruby
 bundler_args: --without extras osx
 rvm:
   - 1.9.3
-  - rbx-19mode
