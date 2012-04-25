@@ -2,8 +2,18 @@
 <html>
 <head>
   <title>RailsGitVersion</title>
-  <%= stylesheet_link_tag    "rails_git_version/application", :media => "all" %>
-  <%= javascript_include_tag "rails_git_version/application" %>
+  <style>
+    body {
+      font: 14px 'helvetica', sans-serif; color: #444;
+      padding: 0;
+      margin: 0;
+    }
+    p.deployed {
+      margin: 0;
+      padding: 10px;
+    }
+    span.rest { color: #999; }
+  </style>
   <%= csrf_meta_tags %>
 </head>
 <body>
