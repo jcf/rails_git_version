@@ -11,7 +11,7 @@ within your browser.
 To add this functionality to your Rails 3 app add it to your Gemfile.
 
 ``` ruby
-gem 'rails_git_version' '~> 0.1'
+gem 'rails_git_version'
 ```
 
 Bundle install the new gem, and decide where you want to access your
