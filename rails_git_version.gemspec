@@ -17,6 +17,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'grit', '~> 2.5'
 
   s.add_development_dependency 'pry', '~> 0.9'
+  s.add_development_dependency 'simplecov', '~> 0.6'
   s.add_development_dependency 'rspec-rails', '~> 2.9'
   s.add_development_dependency 'aruba', '~> 0.4'
   s.add_development_dependency 'cucumber-rails', '~> 1.3'

@@ -9,11 +9,9 @@ When /^I start the dummy app$/ do
 end
 
 Then /^I should see "([^"]*)"$/ do |log_message|
-  sha = RailsGitVersion.repo.commits.first.id_abbrev
-
   check_file_content(
     Rails.root.join('log/test.log').to_s,
-    (log_message % sha),
+    (log_message % latest_commit_id_abbrev),
     true
   )
 end
