@@ -45,7 +45,7 @@ module Dummy
 
     # Add this line with a path to the directory containing the .git
     # directory.
-    config.rails_git_version.root = File.expand_path('..', __FILE__)
+    config.rails_git_version.root = '/var/www/webapp/shared/repo'
   end
 end
 ```
