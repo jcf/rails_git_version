@@ -1,0 +1,2 @@
+#!/bin/sh
+spec/dummy/script/rails server $@
